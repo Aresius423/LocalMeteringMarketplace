@@ -1,2 +1,23 @@
-*.class
+# sbt
+bin/
+project/project
+project/target
+target/
+build/
+dynamodb-local/
+
+# intellij idea
 *.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+#general
+*.class
